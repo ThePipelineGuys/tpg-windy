@@ -11,11 +11,12 @@
 
   "forwardPorts": [],
 
-  "postCreateCommand": "",
+  "postCreateCommand": "yarn install",
 
   "customizations": {
     "vscode": {
       "extensions": [
+        "EditorConfig.EditorConfig",
         "oderwat.indent-rainbow",
         "stuart.unique-window-colors",
       ]
