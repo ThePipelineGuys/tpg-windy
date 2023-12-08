@@ -1,0 +1,17 @@
+name = 'TPG Windy'
+license = 'MIT'
+licenselink = 'https://github.com/thepipelineguys/tpg-windy/LICENSE'
+description = 'Theme for The Pipeline Guys based on Tailwind'
+theme_version = "1.0.0"
+min_version = "0.121.1"
+
+homepage = 'https://github.com/thepipelineguys/tpg-windy'
+demosite = 'https://thepipelineguys.live'
+
+tags = ['blog', 'podcast']
+features = ['rss', 'post', 'preview']
+
+authors = [
+  {name = 'Manuel Coppotelli', homepage = 'https://manuelcoppotelli.me'},
+  {name = 'Lino Telera', homepage = 'https://blog.linoproject.net'}
+]

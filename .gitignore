@@ -9,3 +9,6 @@
 !.yarn/sdks
 !.yarn/versions
 !.yarn/cache
+
+# Theme output
+assets/assets/
