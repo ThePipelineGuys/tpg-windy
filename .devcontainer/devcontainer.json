@@ -1,0 +1,27 @@
+{
+  "name": "Tailwind",
+
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+
+  "containerEnv": {},
+
+  "features": {},
+
+  "forwardPorts": [],
+
+  "postCreateCommand": "",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "oderwat.indent-rainbow",
+        "stuart.unique-window-colors",
+      ]
+    }
+  },
+
+  // Connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
+  "remoteUser": "node"
+}
