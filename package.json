@@ -6,10 +6,32 @@
   },
   "wireit": {
     "build": {
-      "command": "node -e 'console.log(\"Building...\")'"
+      "dependencies": [
+        "style"
+      ]
+    },
+    "style": {
+      "command": "postcss assets/css/main.css --output assets/assets/style.css",
+      "files": [
+        "!assets/css/fonts.css",
+        "assets/css/**/*.css",
+        "layouts/**/*.html",
+        "content/**/*.md"
+      ],
+      "output": [
+        "assets/assets/style.css"
+      ]
     }
   },
   "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.33",
+    "postcss-cli": "^11.0.0",
+    "postcss-import": "^16.0.0",
+    "postcss-minify": "^1.1.0",
+    "tailwindcss": "^3.4.1",
     "wireit": "^0.14.1"
   }
 }

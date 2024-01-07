@@ -1,5 +1,9 @@
 # The Pipeline Guys Theme
 
+## Features
+
+- Tailwind css
+
 ## Installation
 
 To install all the dependencies type:

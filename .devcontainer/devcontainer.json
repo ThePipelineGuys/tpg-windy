@@ -16,6 +16,7 @@
   "customizations": {
     "vscode": {
       "extensions": [
+        "bradlc.vscode-tailwindcss",
         "EditorConfig.EditorConfig",
         "google.wireit",
         "oderwat.indent-rainbow",
