@@ -12,3 +12,6 @@
 
 # Theme output
 assets/assets/
+
+# WireIt
+.wireit
