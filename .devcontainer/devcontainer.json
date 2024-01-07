@@ -17,9 +17,11 @@
     "vscode": {
       "extensions": [
         "bradlc.vscode-tailwindcss",
+        "dbaeumer.vscode-eslint",
         "EditorConfig.EditorConfig",
         "google.wireit",
         "oderwat.indent-rainbow",
+        "pcbowers.alpine-intellisense",
         "stuart.unique-window-colors",
       ]
     }

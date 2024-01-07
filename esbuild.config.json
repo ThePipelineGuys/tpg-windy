@@ -1,0 +1,8 @@
+{
+  "entry": "assets/js/main.js",
+  "bundle": true,
+  "platform": "node",
+  "minify": true,
+  "outfile": "assets/assets/script.js",
+  "allow-overwrite": true
+}

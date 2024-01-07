@@ -4,6 +4,7 @@
 
 - Tailwind css
 - Google Fonts
+- AlpineJS
 
 ## Installation
 

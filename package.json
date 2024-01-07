@@ -7,7 +7,18 @@
   "wireit": {
     "build": {
       "dependencies": [
+        "script",
         "style"
+      ]
+    },
+    "script": {
+      "command": "esbuild $(node libs/flagify.js ../esbuild.config.json)",
+      "files": [
+        "esbuild.config.json",
+        "assets/js/**/*.js"
+      ],
+      "output": [
+        "assets/assets/script.js"
       ]
     },
     "style": {
@@ -39,7 +50,10 @@
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.10",
+    "alpinejs": "^3.13.3",
     "autoprefixer": "^10.4.16",
+    "esbuild": "^0.19.11",
+    "eslint": "^8.56.0",
     "get-google-fonts": "^1.2.2",
     "postcss": "^8.4.33",
     "postcss-cli": "^11.0.0",
