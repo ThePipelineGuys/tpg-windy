@@ -1,0 +1,7 @@
+{
+  "input": "https://fonts.googleapis.com/css?family=Outfit:300,400,500,600,700&subset=latin,latin-ext",
+  "output": "static/assets/fonts",
+  "css": "../../../assets/css/fonts.css",
+  "path": "/assets/fonts/",
+  "overwriting": true
+}

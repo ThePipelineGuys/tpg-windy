@@ -21,6 +21,13 @@ module.exports = {
     },
 
     extend: {
+      fontFamily: {
+        sans: [
+          'Outfit',
+          ...defaultTheme.fontFamily.sans,
+        ],
+      },
+
       screens: {
         '2xl': '1440px',
       },

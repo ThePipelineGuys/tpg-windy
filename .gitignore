@@ -12,6 +12,8 @@
 
 # Theme output
 assets/assets/
+static/assets/fonts/
+assets/css/fonts.css
 
 # WireIt
 .wireit

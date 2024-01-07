@@ -20,6 +20,19 @@
       ],
       "output": [
         "assets/assets/style.css"
+      ],
+      "dependencies": [
+        "fonts"
+      ]
+    },
+    "fonts": {
+      "command": "get-google-fonts $(node libs/flagify.js ../get-google-fonts.config.json)",
+      "files": [
+        "get-google-fonts.config.json"
+      ],
+      "output": [
+        "assets/css/fonts.css",
+        "static/assets/fonts/**"
       ]
     }
   },
@@ -27,6 +40,7 @@
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.10",
     "autoprefixer": "^10.4.16",
+    "get-google-fonts": "^1.2.2",
     "postcss": "^8.4.33",
     "postcss-cli": "^11.0.0",
     "postcss-import": "^16.0.0",

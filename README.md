@@ -3,6 +3,7 @@
 ## Features
 
 - Tailwind css
+- Google Fonts
 
 ## Installation
 
